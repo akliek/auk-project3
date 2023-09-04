@@ -51,6 +51,7 @@ public class ImprovedConversation {
 						System.out.println("\"In The Court Of The Crimson King\" by King Crimson");
 					}
 				}
+				scanner.close();
 				return;
 			} catch (InputMismatchException e) {
 				scanner.nextLine();

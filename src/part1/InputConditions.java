@@ -41,6 +41,7 @@ public class InputConditions {
 				if (s.equals("Y") || s.equals("y")) {
 					continue;
 				}
+				scanner.close();
 				return;
 			} catch (InputMismatchException e) {
 				scanner.nextLine();

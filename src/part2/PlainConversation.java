@@ -30,6 +30,7 @@ public class PlainConversation {
 				} else {
 					System.out.println("retired.");
 				}
+				scanner.close();
 				return;
 			} catch (InputMismatchException e) {
 				scanner.nextLine();
